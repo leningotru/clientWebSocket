@@ -7,8 +7,8 @@ import "antd/dist/antd.css";
 const uuid = require("uuid");
 
 //creo el cliente
-const connClient = new websocketClient("ws://127.0.0.1:5555");
-//const connClient = new websocketClient("ws://serverwslenin.herokuapp.com");
+//const connClient = new websocketClient("ws://127.0.0.1:5555");
+const connClient = new websocketClient("ws://serverwslenin.herokuapp.com");
 
 //variables para los estilos propias de la libreria antd
 const { Search } = Input;
